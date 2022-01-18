@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom";
 import data from "../data/planets";
 import PlanetCard from "../components/planetCard";
 
 export default function Planets() {
   console.log("data", data);
 
- return (
+  return (
     <div style={{ margin: "40px" }}>
       <h1 style={{ textAlign: "center" }}>Planets in the Solar System </h1>
-    
+
       {/* {!data 
         ? "Loading" 
         : data.map(planet => <p>{planet.name}</p>)} */}
